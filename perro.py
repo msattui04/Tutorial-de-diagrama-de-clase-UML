@@ -1,6 +1,6 @@
 #Creamos clase perro
 class Perro:
-    def __init__(self, color, color_ojo, altura, largo, peso, nombre, raza, comportamiento):
+    def __init__(self, color, color_ojo, altura, largo, peso, nombre, raza):
         self.color = color
         self.color_ojo = color_ojo
         self.altura = altura
@@ -8,7 +8,6 @@ class Perro:
         self.peso = peso
         self.nombre = nombre
         self.raza = raza
-        self.comportamiento = comportamiento
 
 #Definimos los getters
     def get_color(self):
@@ -31,9 +30,6 @@ class Perro:
 
     def get_raza(self):
         return self.raza
-
-    def get_comportamiento(self):
-        return self.comportamiento
     
 #Definimos los setters
 
@@ -57,6 +53,3 @@ class Perro:
 
     def set_raza(self, raza):
         self.raza = raza
-
-    def set_comportamiento(self, comportamiento):
-        self.comportamiento = comportamiento
